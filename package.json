@@ -1,11 +1,11 @@
 {
-  "depluy": "ng build --prod --base-href=/OLCProyectoFase1",
   "name": "olc2-proyecto-fase1",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng build --prod --base-href=/OLCProyectoFase1/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
