@@ -1,4 +1,5 @@
 {
+  "depluy": "ng build --prod --base-href=/OLCProyectoFase1",
   "name": "olc2-proyecto-fase1",
   "version": "0.0.0",
   "scripts": {
