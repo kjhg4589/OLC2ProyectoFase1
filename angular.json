@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OLC2ProyectoFase1"
+    }
+  },
+  "defaultProject": "OLC2ProyectoFase1",
+  "cli": {
+    "analytics": "d5e12126-a6d2-4e77-9902-62e4fbda720a"
+  }
 }
