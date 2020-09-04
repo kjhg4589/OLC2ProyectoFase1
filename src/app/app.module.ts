@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrincipalComponent } from './principal/principal.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

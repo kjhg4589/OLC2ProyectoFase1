@@ -9,10 +9,21 @@ import { Component, OnInit } from '@angular/core';
 export class PrincipalComponent implements OnInit {
 
 
-  public texto = String;
-  constructor() { }
+  public texto = '';
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
+
+  traducir(): void {
+    console.log(this.texto);
+  }
+
+  ejecutar(): void {
+    console.log(this.texto);
+  }
+
+
 
 }
