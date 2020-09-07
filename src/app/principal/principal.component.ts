@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var grammar: any;
 
 @Component({
   selector: 'app-principal',
@@ -18,6 +19,7 @@ export class PrincipalComponent implements OnInit {
 
   traducir(): void {
     console.log(this.texto);
+    grammar.parse(this.texto);
   }
 
   ejecutar(): void {
