@@ -19,7 +19,7 @@ export class PrincipalComponent implements OnInit {
 
   traducir(): void {
     console.log(this.texto);
-    grammar.parse(this.texto);
+    console.log(grammar.parse(this.texto));
   }
 
   ejecutar(): void {

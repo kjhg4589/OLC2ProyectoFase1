@@ -87,34 +87,54 @@ case 1:
 return $$[$0-1];
 break;
 case 2:
-this.$ = $$[$0-2]+$$[$0];
+
+          this.$ = $$[$0-2]+$$[$0];
+        
 break;
 case 3:
-this.$ = $$[$0-2]-$$[$0];
+
+          this.$ = $$[$0-2]-$$[$0];
+        
 break;
 case 4:
-this.$ = $$[$0-2]*$$[$0];
+
+          this.$ = $$[$0-2]*$$[$0];
+        
 break;
 case 5:
-this.$ = $$[$0-2]/$$[$0];
+
+          this.$ = $$[$0-2]/$$[$0];
+        
 break;
 case 6:
-this.$ = Math.pow($$[$0-2], $$[$0]);
+
+          this.$ = Math.pow($$[$0-2], $$[$0]);
+        
 break;
 case 7:
-this.$ = -$$[$0];
+
+          this.$ = -$$[$0];
+        
 break;
 case 8:
-this.$ = $$[$0-1];
+
+          this.$ = $$[$0-1];
+        
 break;
 case 9:
-this.$ = Number(yytext);
+
+          this.$ = Number(yytext);
+        
 break;
 case 10:
-this.$ = Math.E;
+
+          this.$ = Math.E;
+        
 break;
 case 11:
-this.$ = Math.PI;
+
+          this.$ = Math.PI;
+        
 break;
 }
 },

@@ -1,8 +1,4 @@
 /* description: Parses end executes mathematical expressions. */
-%{
-  var str1 = "";
-}%
-}
 /* lexical grammar */
 %lex
 %%
